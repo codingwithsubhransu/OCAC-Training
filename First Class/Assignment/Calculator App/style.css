@@ -1,0 +1,53 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    min-height: 60vh;
+    max-width: 35rem;
+    margin: 3%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.display{
+    background-color: aliceblue;
+    width: 95%;
+    height: 22%;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+#result{
+    padding-right: 20px;
+    min-height: 30px;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.operators{
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.operators > button{
+    background-color: aliceblue;
+    height: 80px;
+    width: 120px;
+    margin: 10px;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.operators > .calculate {
+    background-color: blue;
+    width: 260px;
+    color: white;
+}
