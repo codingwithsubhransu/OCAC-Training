@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper-class">
+        <div class="task_form">
+            <input type="text" placeholder="Input Task" class="task_input" id="task_input">
+            <button type="submit" class="add_task_btn" id="task_input_btn" onclick="add_task()">Add</button>
+        </div>
+        <div class="show-task" id="display_task">
+            <div class="tasks">
+                <span class="content">I will wake up at 8 in the morning.</span>
+                <button class="del_btn" type="button">🗑️</button>
+            </div>
+            <div class="tasks">
+                <span class="content">I will wake up at 8 in the morning. We will not going to have this</span>
+                <button class="del_btn" type="button">🗑️</button>
+            </div>
+
+            <div class="tasks">
+                <span class="content">I will wake up at 8 in the morning. We will not going to have this</span>
+                <button class="del_btn" type="button">🗑️</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
