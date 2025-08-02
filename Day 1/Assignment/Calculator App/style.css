@@ -1,5 +1,5 @@
 body{
-    background-color: aliceblue;
+    background-color: rgb(211, 230, 246);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,10 +16,10 @@ body{
 }
 
 .display{
-    background-color: aliceblue;
+    background-color: rgb(211, 230, 246);
     width: 95%;
     height: 22%;
-    margin: 10px auto;
+    margin: 15px auto;
     border-radius: 15px;
 }
 
@@ -37,7 +37,7 @@ body{
 }
 
 .operators > button{
-    background-color: aliceblue;
+    background-color: rgb(211, 230, 246);
     height: 80px;
     width: 120px;
     margin: 10px;
