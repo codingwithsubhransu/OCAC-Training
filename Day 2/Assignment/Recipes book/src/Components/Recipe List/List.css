@@ -1,0 +1,74 @@
+/* Search Recipes */
+
+.search-recipes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 30px;
+    height: 1.5rem;
+}
+
+.search-recipes input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+    outline: none;
+}
+
+/* Recipe List */
+
+.recipe-list {
+    width: 60%;
+}
+
+
+.classification ul{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.classification ul li {
+    padding: 10px 15px;
+    background-color: #ededed;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Card Component */
+
+.card{
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+}
+
+.card-component{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-component img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+
+.card-component h4 {
+    font-size: 1rem;
+}
