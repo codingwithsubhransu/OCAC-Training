@@ -3,6 +3,8 @@ import SearchRecipes from './SearchRecipes';
 import './List.css';
 import TypesSuggestion from './TypesSuggestion';
 import Card from './Card';
+import Result from './result';
+
 
 const RecipeList = () => {
     return (
@@ -12,6 +14,8 @@ const RecipeList = () => {
             <div className="list_recipe">
                 <Card />
             </div>
+            <hr />
+            <Result />
         </div>
     );
 }

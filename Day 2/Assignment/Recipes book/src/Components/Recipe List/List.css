@@ -51,14 +51,13 @@
     flex-wrap: wrap;
     width: 100%;
     gap: 30px;
+    margin-bottom: 20px;
 }
 
 .card-component{
     display: flex;
     flex-direction: column;
     width: 40%;
-    justify-content: center;
-    align-items: center;
 }
 
 .card-component img {
@@ -66,9 +65,27 @@
     height: 120px;
     object-fit: cover;
     border-radius: 15px;
-
 }
 
-.card-component h4 {
-    font-size: 1rem;
+.recipe-info {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.recipe-info p {
+    margin: 0;
+    font-size: 1.1rem; 
+}
+
+/* Search Result */
+.search-result {
+    padding: 20px;
+    text-align: center;
+}
+
+.search-result p {
+    font-size: 1.2rem;
+    color: #666;
 }

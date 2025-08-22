@@ -1,0 +1,41 @@
+.about{
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.about img{
+    width: 250px;
+    border-radius: 20px;
+}
+
+.about h1{
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.about span{
+    font-size: 1rem;
+}
+
+.about p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.about ul{
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.about ul li{
+    margin: 0px;
+    color: rgb(86, 86, 86);
+}
