@@ -1,0 +1,31 @@
+.profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0;
+    width: 50%;
+    border-right: 1px solid rgb(227, 227, 227);
+    flex-direction: column;
+}
+
+.profile h1{
+    text-align: left;
+}
+
+.profile img{
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.profile h3{
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+.profile p{
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+}

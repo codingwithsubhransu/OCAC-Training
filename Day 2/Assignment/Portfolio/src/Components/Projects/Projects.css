@@ -1,0 +1,22 @@
+.projects{
+    display: flex;
+    width: 46%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Project Card */
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+}
+
+.card{
+    padding: 10px;
+    border: 2px solid rgb(215, 215, 215);
+    margin: 5px 50px;
+    margin-left: 0px;
+}

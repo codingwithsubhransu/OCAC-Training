@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(227, 227, 227);
+}
+
+nav h2{
+    margin-left:50px;
+}
+
+nav .Navlinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+}
+
+nav .Navlinks a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+}
