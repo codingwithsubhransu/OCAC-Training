@@ -1,0 +1,47 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    width: 40%;
+    height: 50vh;
+    background-color: gray;
+    margin: 10% auto;
+    color: white;
+}
+
+.card .buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.card .buttons button {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card .buttons .incr_butt {
+    background-color: green;
+    color: white;
+    font-size: 1rem;
+}
+
+.card .buttons .decr_butt {
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+}
+
+.reset_butt{
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+}
