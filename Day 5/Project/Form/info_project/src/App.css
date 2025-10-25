@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #74ABE2, #5563DE);
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  text-align: center;
+}
+
+.weather-card {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 2rem;
+  border-radius: 20px;
+  width: 350px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+.weather-card:hover {
+  transform: translateY(-5px);
+}
+
+.title {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.search-box input {
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: none;
+  width: 60%;
+  outline: none;
+  font-size: 1rem;
+}
+
+.search-box button {
+  background: #00b4d8;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.search-box button:hover {
+  background: #0096c7;
+}
+
+.weather-info img {
+  width: 100px;
+  margin: 10px 0;
+}
+
+.weather-info h2 {
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+.weather-info h3 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.desc {
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+.error {
+  color: #ffb703;
+  margin-top: 10px;
+  font-weight: bold;
+}
